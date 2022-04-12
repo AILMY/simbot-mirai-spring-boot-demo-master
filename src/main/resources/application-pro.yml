@@ -1,0 +1,24 @@
+logging:
+  level:
+    love.forte: info
+simbot:
+  core:
+    bot-resource-type: both
+  component:
+    mirai:
+      protocol: android_pad
+
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/yimiaodb
+      username: "YiMiaoDB"
+      password: "frNKbaE8xbc3b48j"
+  config:
+    activate:
+      on-profile: pro
+mybatis-plus:
+  global-config:
+    db-config:
+      id-type: auto

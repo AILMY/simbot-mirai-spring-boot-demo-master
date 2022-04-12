@@ -1,0 +1,26 @@
+logging:
+  level:
+    love.forte: info
+simbot:
+  core:
+    bot-resource-type: both
+  component:
+    mirai:
+      protocol: android_pad
+spring:
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://118.178.126.98/yimiaodbtest
+      username: "YiMiaoDBTest"
+      password: "rtbx8xX8yNbrdkAf"
+  config:
+    activate:
+      on-profile: dev
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: auto
+
