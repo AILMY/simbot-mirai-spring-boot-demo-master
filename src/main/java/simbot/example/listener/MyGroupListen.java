@@ -66,8 +66,6 @@ public class MyGroupListen {
         for (Neko image : imageCats) {
             System.out.println("Img url: " + image.get("url"));
         }
-
-
         // 获取发消息的人。
         GroupAccountInfo accountInfo = groupMsg.getAccountInfo();
         // 打印发消息者的账号与昵称。
