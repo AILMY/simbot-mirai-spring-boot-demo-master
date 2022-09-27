@@ -42,6 +42,8 @@ public class MyGroupListen {
      * 由于你监听的是一个群消息，因此你可以通过 {@link GroupMsg} 作为参数来接收群消息内容。
      */
 //    @OnGroup
+//    @OnGroup
+//    @OnGroup
     public void onGroupMsg(GroupMsg groupMsg) {
         // 打印此次消息中的 纯文本消息内容。
         // 纯文本消息中，不会包含任何特殊消息（例如图片、表情等）。
@@ -71,20 +73,10 @@ public class MyGroupListen {
         // 打印发消息者的账号与昵称。
         System.out.println(accountInfo.getAccountCode());
         System.out.println(accountInfo.getAccountNickname());
-
-
         // 获取群信息
         GroupInfo groupInfo = groupMsg.getGroupInfo();
         // 打印群号与名称
         System.out.println(groupInfo.getGroupCode());
         System.out.println(groupInfo.getGroupName());
     }
-
-
-
-
-
-
-
-
 }
