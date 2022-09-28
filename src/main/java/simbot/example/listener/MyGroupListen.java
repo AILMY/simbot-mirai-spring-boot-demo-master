@@ -48,12 +48,6 @@ public class MyGroupListen {
 //    @OnGroup
 //    @OnGroup
 
-    //11
-    //112
-    //112
-    //112
-    //112
-    //112
 
     public void onGroupMsg(GroupMsg groupMsg) {
         // 打印此次消息中的 纯文本消息内容。
