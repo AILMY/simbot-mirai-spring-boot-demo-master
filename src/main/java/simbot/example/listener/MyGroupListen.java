@@ -50,13 +50,7 @@ public class MyGroupListen {
     //11
     //11
     //11
-    //11tttt
-    //11tttt
-    //11tttt
-    //11tttt
-    //11tttt  //11tttt
-    //11tttt  //11tttt
-    //11tttt
+    //11
     public void onGroupMsg(GroupMsg groupMsg) {
         // 打印此次消息中的 纯文本消息内容。
         // 纯文本消息中，不会包含任何特殊消息（例如图片、表情等）。
