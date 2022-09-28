@@ -34,6 +34,7 @@ public class MyGroupListen {
 //12
 //21
 //22
+//qq
     /** log */
     private static final Logger LOG = LoggerFactory.getLogger(MyGroupListen.class);
 
