@@ -50,6 +50,8 @@ public class MyGroupListen {
     //11tttt
     //11tttt
     //11tttt
+    //11tttt  //11tttt
+    //11tttt  //11tttt
     //11tttt
     public void onGroupMsg(GroupMsg groupMsg) {
         // 打印此次消息中的 纯文本消息内容。
