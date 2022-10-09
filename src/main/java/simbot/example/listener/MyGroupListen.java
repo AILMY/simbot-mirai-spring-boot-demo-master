@@ -42,6 +42,8 @@ public class MyGroupListen {
 //qq1234
 //qq12345
 //qq12345
+//qq12345
+//qq12345
     /** log */
     private static final Logger LOG = LoggerFactory.getLogger(MyGroupListen.class);
 
